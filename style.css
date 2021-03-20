@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Oswald:wght@300&display=swap');
+
+/* font-family: 'Della Respira', serif; X O
+font-family: 'Oswald', sans-serif; */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #b005ff;
+    font-family: 'Della Respira';
+}
+.container{
+    width: 365px;
+    border: 2px solid #fff;
+    margin: 80px auto 30px auto;
+}
+.container #heading{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    background: #000;
+}
+.container .box{
+    float: left;
+    width: 120px;
+    height: 120px;
+    border: 2px solid rgb(255, 255, 255);
+    background: #000;
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 120px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+}
+.container .box:hover{
+    background: rgb(172, 167, 167);
+    transition: all .2s linear;
+    color: #000;
+}
+.container .winner{
+    background: rgb(72, 255, 0);
+    color: rgb(0, 0, 0);
+}
+button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #000000;
+    color: rgb(255, 0, 0);
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    cursor: pointer; 
+    width: 250px;
+    height: 50px; 
+    font-size: 20px;
+    font-family: 'Della Respira';
+    font-weight: 600;
+}
+button:hover{
+    background: rgb(30, 255, 0);
+    color: #000;
+    transition: all .3s linear;
+    border: 3px solid rgb(255, 255, 255);
+}
